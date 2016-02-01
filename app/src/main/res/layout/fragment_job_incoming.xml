@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    GRUPO RAIDO CONFIDENTIAL
+    __________________
+      [2015] - [2015] Grupo Raido SAPI de CV
+      All Rights Reserved.
+    NOTICE: All information contained herein is, and remains
+    the property of Grupo Raido SAPI de CV and its suppliers,
+    if any. The intellectual and technical concepts contained
+    herein are proprietary to Grupo Raido SAPI de CV and its
+    suppliers and may be covered by México and Foreign Patents,
+    patents in process, and are protected by trade secret or
+    copyright law. Dissemination of this information or
+    reproduction of this material is strictly forbidden unless
+    prior written permission is obtained from Grupo Raido SAPI
+    de CV.
+-->
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/job_incoming_actionsFloatingActionsMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        fab:fab_addButtonColorNormal="@color/white"
+        fab:fab_addButtonColorPressed="@color/white_pressed"
+        fab:fab_addButtonPlusIconColor="@color/half_black"
+        fab:fab_addButtonSize="mini"
+        fab:fab_addButtonStrokeVisible="false"
+        fab:fab_expandDirection="down"
+        fab:fab_labelStyle="@style/MenuLabel"
+        fab:fab_labelsPosition="left"/>
+
+    <FrameLayout
+        android:id="@+id/job_incoming_jobLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="8dp"/>
+
+</FrameLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    GRUPO RAIDO CONFIDENTIAL
+    __________________
+
+      [2015] - [2015] Grupo Raido SAPI de CV
+      All Rights Reserved.
+
+    NOTICE: All information contained herein is, and remains
+    the property of Grupo Raido SAPI de CV and its suppliers,
+    if any. The intellectual and technical concepts contained
+    herein are proprietary to Grupo Raido SAPI de CV and its
+    suppliers and may be covered by México and Foreign Patents,
+    patents in process, and are protected by trade secret or
+    copyright law. Dissemination of this information or
+    reproduction of this material is strictly forbidden unless
+    prior written permission is obtained from Grupo Raido SAPI
+    de CV.
+-->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/quoting_form_userLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <FrameLayout
+            android:id="@+id/quoting_form_quoteLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"/>
+
+    </LinearLayout>
+
+</ScrollView>

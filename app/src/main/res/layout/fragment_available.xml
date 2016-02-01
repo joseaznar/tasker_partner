@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    GRUPO RAIDO CONFIDENTIAL
+    __________________
+
+      [2015] - [2015] Grupo Raido SAPI de CV
+      All Rights Reserved.
+
+    NOTICE: All information contained herein is, and remains
+    the property of Grupo Raido SAPI de CV and its suppliers,
+    if any. The intellectual and technical concepts contained
+    herein are proprietary to Grupo Raido SAPI de CV and its
+    suppliers and may be covered by México and Foreign Patents,
+    patents in process, and are protected by trade secret or
+    copyright law. Dissemination of this information or
+    reproduction of this material is strictly forbidden unless
+    prior written permission is obtained from Grupo Raido SAPI
+    de CV.
+-->
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@drawable/top_bar"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/available_availableTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/action_available"
+        android:textColor="@color/normal"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <FrameLayout
+        android:id="@+id/available_toggleLayout"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|right"
+        android:paddingLeft="30dp">
+
+        <View
+            android:id="@+id/available_toggleBackgroundButton"
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/toggle_background"
+            android:enabled="false"/>
+
+        <View
+            android:id="@+id/available_toggleForegroundButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical|left"
+            android:background="@drawable/toggle_foreground"
+            android:enabled="false"/>
+    </FrameLayout>
+
+</FrameLayout>

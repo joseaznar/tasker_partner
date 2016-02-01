@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">tasker_partner</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Drawer -->
+    <string name="drawer_balance">My balance</string>
+    <string name="drawer_services">Service history</string>
+    <string name="drawer_account">How do I get my money</string>
+    <string name="drawer_support">Support</string>
+    <string name="drawer_about">About Tasker</string>
+
+    <!-- Actions -->
+    <string name="action_register">Register</string>
+    <string name="action_next">Next</string>
+    <string name="action_done">Done</string>
+    <string name="action_logout">Log out</string>
+    <string name="action_request">Request</string>
+    <string name="action_add">Add</string>
+    <string name="action_accept">ACCEPT</string>
+    <string name="action_reject">REJECT</string>
+    <string name="action_cancel">CANCEL</string>
+    <string name="action_available">You are available</string>
+    <string name="action_not_available">You are not available</string>
+    <string name="action_change">Change</string>
+    <string name="action_quote">Quote</string>
+    <string name="action_send">SEND</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_destroy">Delete</string>
+    <string name="action_work">I\'m there</string>
+    <string name="action_maps">Open in maps</string>
+    <string name="action_call">Call client</string>
+    <string name="action_end_work">Finish service</string>
+    <string name="action_complaint">I have a complaint</string>
+    <string name="action_search_tasker">Search Tasker</string>
+    <string name="action_back">Back</string>
+    <string name="action_enter">Enter</string>
+    <string name="action_skip">Skip</string>
+
+    <!-- Toast -->
+    <string name="toast_requesting">The search for the nearest available tasker can take several minutes, please wait.</string>
+    <string name="toast_quoting">Please wait for the Tasker to send a quote for the service.</string>
+    <string name="toast_quote_acceptance">Please wait for the client to accept the quote.</string>
+    <string name="toast_working">Please wait for the Tasker to end the service</string>
+    <string name="toast_wait">Waiting for a client to request your services.</string>
+
+
+    <!-- Numbers -->
+    <string name="number_zero">$0.00</string>
+
+    <!-- Quote -->
+    <string name="quote_title">Quote</string>
+    <string name="quote_labor">Labor</string>
+    <string name="quote_materials">Materials</string>
+    <string name="quote_total">Full amount</string>
+    <string name="quote_accept_title">Are you sure you want to accept the service?</string>
+    <string name="quote_accept_content">You will be automatically charged to your credit card.</string>
+    <string name="quote_cancel_title">Are you sure you want to cancel the service?</string>
+    <string name="quote_cancel_content">An automatic charge will be done for $180.00 MXN corresponding to the minimum fee.</string>
+    <string name="quote_rejected_title">The service was canceled!</string>
+    <string name="quote_rejected_content">The customer has cancelled the service.</string>
+    <string name="quote_rating_title">¡SERVICE ENDED!</string>
+    <string name="quote_rating_content">Rate the Tasker</string>
+    <string name="quote_promotion">Promotion</string>
+    <string name="bank_account_title" />
+    <string name="balance_description" />
+    <string name="bank_account_description" />
+</resources>

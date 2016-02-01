@@ -1,0 +1,4 @@
+include ':app'
+
+include ':tasker_library'
+project(':tasker_library').projectDir = new File(settingsDir, "../tasker_library/app");

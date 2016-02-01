@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_balance"
+            android:icon="@mipmap/ic_dollar"
+            android:title="@string/drawer_balance"/>
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@mipmap/ic_history"
+            android:title="@string/drawer_services"/>
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@mipmap/ic_credit_white"
+            android:title="@string/drawer_account"/>
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@mipmap/ic_support"
+            android:title="@string/drawer_support"/>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@mipmap/ic_info"
+            android:title="@string/drawer_about"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"/>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send"/>
+        </menu>
+    </item>
+
+</menu>
